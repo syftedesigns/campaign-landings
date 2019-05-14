@@ -596,13 +596,11 @@ Custom theme
     /*
     Ads campaign
     */
-    /*.ads-theme-marketing {
-        background-image: url(./assets/campaign/pages/1920/fondos-02.png) !important;
-        background-repeat: no-repeat
-    }*/
+    .ads-theme-branding2 {
+        background-image: url(./assets/campaign/pages/1920/bg-branding-desktop.jpg) !important;
+        background-repeat: no-repeat;
+    }
 }
-
-@media only screen and (min-width: 1280px) and (max-width: 1599px) {}
 
 
 /* End desktop */
@@ -614,10 +612,10 @@ Custom theme
     /*
     Ads campaign
     */
-    /*.ads-theme-marketing {
-        background-image: url(./assets/campaign/pages/768/vector-mkt.png) !important;
+    .ads-theme-branding2 {
+        background-image: url(./assets/campaign/pages/768/tablet-workspace2.jpg) !important;
         background-repeat: no-repeat;
-    }*/
+    }
 }
 
 
@@ -626,16 +624,16 @@ Custom theme
 
 /* Mobile */
 
-@media only screen and (max-width: 480px) {
-    /*.ads-theme-marketing {
-        background-image: url(./assets/campaign/pages/480/vector-mobile-mkt.png) !important;
+@media only screen and (max-width: 800px) {
+    .ads-theme-branding2 {
+        background-image: url(./assets/campaign/pages/480/bg-branding-mobile.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover
-    }*/
+    }
 }
 
 @media only screen and (max-width: 320px) {
-    .theme-web-design {
+    .ads-theme-branding {
         background-color: #DCDBDA;
     }
     .theme-realtime {
@@ -802,7 +800,7 @@ Custom theme
 
 .dialog-resize-xl .mat-dialog-container {
     /*background-color: rgba(54, 56, 57, 1) !important;*/
-    /*background-image: url(./assets/campaign/pages/1920/fondos-02.png) !important;*/
+    background-image: url(./assets/campaign/pages/1920/bg-branding-desktop.jpg) !important;
     background-repeat: no-repeat;
 }
 

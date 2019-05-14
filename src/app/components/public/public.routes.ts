@@ -7,7 +7,7 @@ const routes: Routes = [
     {
         path: 'branding',
         component: BrandingComponent,
-        data: {Title: 'Create your brand today | Syftedesigns.com'}
+        data: {Title: 'Start your brand today | Syftedesigns.com'}
     },
     {
         path: '',

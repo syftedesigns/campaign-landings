@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { StaticModule } from './components/static/static.module';
 import { NgwWowModule } from 'ngx-wow';
 import { SYFTE_ROUTES } from './app.routes';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SYFTE_ROUTES } from './app.routes';
     RouterModule,
     StaticModule,
     NgwWowModule,
-    SYFTE_ROUTES
+    SYFTE_ROUTES,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
