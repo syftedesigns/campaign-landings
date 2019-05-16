@@ -815,5 +815,9 @@ Custom theme
     width: 100%!important;
 }
 
+.grecaptcha-badge {
+    z-index: 1000 !important;
+}
+
 
 /* End custom theme */

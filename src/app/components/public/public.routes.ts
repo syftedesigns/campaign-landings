@@ -5,14 +5,14 @@ import { BrandingComponent } from './branding/branding.component';
 
 const routes: Routes = [
     {
-        path: 'branding',
+        path: '',
         component: BrandingComponent,
         data: {Title: 'Start your brand today | Syftedesigns.com'}
     },
     {
         path: '',
         pathMatch: 'full',
-        redirectTo: '/branding'
+        redirectTo: '/'
     }
 ];
 
