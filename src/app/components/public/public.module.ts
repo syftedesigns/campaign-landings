@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AngularMaterialModule } from '../../angular-material.module';
 import { FormsModule } from '@angular/forms';
 import { PublicRoutingModule } from './public.routes';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { PublicRoutingModule } from './public.routes';
     RouterModule,
     AngularMaterialModule,
     FormsModule,
-    PublicRoutingModule
+    PublicRoutingModule,
+    ParticlesModule
   ],
   declarations: [
     BrandingComponent
